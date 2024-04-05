@@ -18,7 +18,9 @@
   "homepage": "https://github.com/smiti6812/course-code#readme",
   "keywords": [],
   "dependencies": {
-    "axios": "^1.6.8",
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
