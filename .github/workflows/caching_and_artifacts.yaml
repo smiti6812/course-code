@@ -22,7 +22,7 @@ jobs:
         run:  |
           git update-index --chmod=+x ./sum.test.js
           git update-index --chmod=+x ./sum.js
-          git update-index --chmod=+x ./node_modules/jest/bin/jest.js
+          git update-index --chmod=+x node_modules/.bin/jest
           npm test
       - name: Upload Code Coverage Report
         uses: actions/upload-artifact@v3
