@@ -1,1 +1,1 @@
-# course-code
+# GITHUB Actions training materials
