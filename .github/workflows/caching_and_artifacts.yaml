@@ -19,7 +19,11 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run Tests
-        run:  npm test
+        run:  |
+          git update-index --chmod=+x ./sum.test.js
+          git update-index --chmod=+x ./sum.js
+          git update-index --chmod=+x node_modules/.bin/jest
+          npm test
       - name: Upload Code Coverage Report
         uses: actions/upload-artifact@v3
         if: always()
