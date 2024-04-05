@@ -16,5 +16,8 @@
     "url": "https://github.com/smiti6812/course-code/issues"
   },
   "homepage": "https://github.com/smiti6812/course-code#readme",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
 }
