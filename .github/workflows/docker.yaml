@@ -36,3 +36,8 @@ jobs:
           args: -v
       - name: Log Env
         run: echo $API_URL
+      - name: Show file contents
+        uses: docker://node:18.16-alpine3.17
+        with:
+          entrypoint: cat
+          args: text.txt
