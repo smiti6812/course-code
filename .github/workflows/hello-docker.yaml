@@ -1,4 +1,4 @@
-name: Simple Action
+name: Hello Docker Simple Action
 on: [workflow_dispatch]
 
 jobs:
